@@ -34,7 +34,7 @@ namespace Planets
             {
                 Console.WriteLine(planet + "I am ring system");
             }
-            
+
             List<Planet> thiccMassPlanets = planets.FindAll(planet => planet.Mass > 1 && planet.Mass < 6);
             planets.Clear();
 

@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace WashingMachine_Task
 {
+
+    //This could and should be outside of main, so I don't have to access it through the class
     public enum WashingPrograms
     {
         NORMALWASH,
