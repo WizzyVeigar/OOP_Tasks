@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WashingMachine_Task")]
+[assembly: AssemblyTitle("WashingMachine")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WashingMachine_Task")]
+[assembly: AssemblyProduct("WashingMachine")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a9624d51-d95a-4663-9930-a3275b5a8be3")]
+[assembly: Guid("994e3d8c-bc3c-4169-8473-3197828c09ad")]
 
 // Version information for an assembly consists of the following four values:
 //

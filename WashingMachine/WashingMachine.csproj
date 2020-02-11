@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A9624D51-D95A-4663-9930-A3275B5A8BE3}</ProjectGuid>
+    <ProjectGuid>{994E3D8C-BC3C-4169-8473-3197828C09AD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WashingMachine_Task</RootNamespace>
-    <AssemblyName>WashingMachine_Task</AssemblyName>
+    <RootNamespace>WashingMachine</RootNamespace>
+    <AssemblyName>WashingMachine</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
