@@ -79,16 +79,16 @@ namespace WashingMachine_Task
             switch (temp)
             {
                 case "1":
-                    washer.chosenProgram = WashingMachine.WashingPrograms.CLEANPROGRAM;
+                    washer.chosenProgram = WashingPrograms.CLEANPROGRAM;
                     return "You chose 1";
                 case "2":
-                    washer.chosenProgram = WashingMachine.WashingPrograms.HEAVYWASH;
+                    washer.chosenProgram = WashingPrograms.HEAVYWASH;
                     return "You chose 2";
                 case "3":
-                    washer.chosenProgram = WashingMachine.WashingPrograms.NORMALWASH;
+                    washer.chosenProgram = WashingPrograms.NORMALWASH;
                     return "You chose 3";
                 case "4":
-                    washer.chosenProgram = WashingMachine.WashingPrograms.SMALLWASH;
+                    washer.chosenProgram = WashingPrograms.SMALLWASH;
                     return "You chose 4";
                 default:
                     return "Something went wrong with your input";

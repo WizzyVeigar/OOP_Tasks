@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace WashingMachine_Task
 {
+    public enum WashingPrograms
+    {
+        NORMALWASH,
+        HEAVYWASH,
+        SMALLWASH,
+        CLEANPROGRAM
+    }
     class WashingMachine
     {
         public event EventHandler WaterFilledEvent;
 
-        public enum WashingPrograms
-        {
-            NORMALWASH,
-            HEAVYWASH,
-            SMALLWASH,
-            CLEANPROGRAM
-        }
 
         public WashingPrograms chosenProgram;
 
