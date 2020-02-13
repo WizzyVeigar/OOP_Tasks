@@ -26,11 +26,18 @@ namespace LibraryTrip
 
         private int bookLength;
 
+
         public int BookLenght
         {
             get { return bookLength; }
             set { bookLength = value; }
         }
 
+        public Book(string bookName, string bookAuthor, int bookLenght)
+        {
+            BookName = bookName;
+            BookAuthor = bookAuthor;
+            BookLenght = bookLenght;
+        }
     }
 }
