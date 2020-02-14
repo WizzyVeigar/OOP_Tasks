@@ -43,7 +43,11 @@ namespace LibraryTrip
             books.Push(bookToBorrow);
             return "Borrowed " + bookToBorrow.BookName;
         }
-
+        /// <summary>
+        /// Returns a book to the <paramref name="booklist"/>
+        /// </summary>
+        /// <param name="booklist"></param>
+        /// <returns></returns>
         public string ReturnBook(List<Book> booklist)
         {
             booklist.Add(books.Pop());
